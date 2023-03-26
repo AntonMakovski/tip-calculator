@@ -1,0 +1,33 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="start">Калькулятор чаевых</h1>
+
+    <p class="cost">Сумма по счету</p>
+    <input id="1" type="number">
+
+    <p class="qualety">Качество обслуживания</p>
+    <select>
+        <option>Плохое (0%)</option>
+        <option>Нормальное (5%)</option>
+        <option>Хорошее (10%)</option>
+        <option>Отличное (15%)</option>
+    </select>
+
+    <p class="amount">Количество человек</p>
+    <input id="2" type="number">
+    
+    <div>
+    <button id="b1">Посчитать</button>
+    <button class="res" id="b2">сбросить</button>
+    </div>
+
+    <div class="results">
+        <div class="row"><p>Чаевые:</p> <label id="l1"></label></div>
+        <div class="row"><p>Всего:</p> <label id="l2"></label></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>

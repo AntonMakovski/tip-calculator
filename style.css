@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    background-color: #360160;
+    font-family: 'Roboto Condensed';
+    padding-left: 60px;
+}
+.start{
+    width: 380px;
+    margin-top: 34px;
+    font-size: 52px; 
+    font-weight: 700;
+    margin-bottom: 42px;
+    color: #FFDC40;
+}
+
+
+.cost, .qualety, .amount{
+    width: 380px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 20px;
+    left: 60px;
+    color:white;
+    margin-bottom: 7px;
+}
+
+button{
+    width: 180;
+    height: 60;
+    background-color: #FFDC40;
+    margin-right: 20;
+    border-radius: 20px;
+    border-width: 0;
+}
+
+div{
+    margin-top: 9px;
+    margin-bottom: 60px;
+}
+
+select,input{
+    margin-bottom: 20px;
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #A4CEF4;
+}
+
+.results{
+    font-size: 25px;
+    color: white;
+}
+
+label{
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 34px;
+    margin-top: -5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin-top: 0px;
+}
+
+.res{
+    background-color: #7C7A7A;
+}
