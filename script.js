@@ -19,8 +19,12 @@ function f(event){
 
 function reset(){
     cost.value = 0
-    amount.value = 1
+    amount.value = 0
     selector.value = "Плохое (0%)"
+    tips = 0
+    for_one_person = 0
+    out1.innerHTML = for_one_person
+    out2.innerHTML = tips
 }
 
 
