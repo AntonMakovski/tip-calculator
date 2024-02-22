@@ -15,7 +15,7 @@ body{
 }
 
 
-.cost, .qualety, .amount{
+.cost, .quality, .amount{
     width: 380px;
     height: 23px;
     font-weight: 400;
